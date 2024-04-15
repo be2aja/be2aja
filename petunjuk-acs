@@ -1,0 +1,49 @@
+======================================================
+WAN PPPOE
+======================================================
+Conn Type:
+PPPoE_Routed = WAN PPP type PPPOE
+PPPoE_Bridged = WAN Bridge
+
+======================================================
+Service List:
+INTERNET = PPPoE
+OTHER = Bridge
+IPTV = IPTV
+MULTICAST = IPTV ONT FIBERHOME
+
+======================================================
+WAN IP / IP STATIC/IP TR069
+======================================================
+Conn Type:
+IP_Routed = WAN PPP type PPPOE
+IP_Bridged = WAN Bridge
+======================================================
+Service List:
+INTERNET
+INTERNET_VOIP_TR069
+OTHER
+IPTV
+MULTICAST
+VOIP
+TR069
+VOIP_TR069
+=======================================================
+
+LAN
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4
+
+WLAN
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4
+
+EX LAN 1-2 BIND
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2
+
+EX. LAN 1 WLAN 1 BIND
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,InternetGatewayDevice.LANDevice.1.WLANConfiguration.1
