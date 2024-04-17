@@ -24,7 +24,9 @@
 @@||bca.id^
 @@||blogger.com^
 @@||bri.co.id^
+@@||branch.io^
 @@||bukalapak.com^
+@@||byteoversea.com^
 @@||cimbniaga.co.id^
 @@||citibank.co.id^
 @@||citibank.com^
@@ -38,6 +40,7 @@
 @@||edgekey-staging.net^
 @@||edgesuite.net^
 @@||edgesuite-staging.net^
+@@||emb-api.com^
 @@||facebook.com^
 @@||faspay.co.id^
 @@||fbcdn.com^
@@ -49,8 +52,12 @@
 @@||github.io^
 @@||gojek.com^
 @@||google.com^
+@@||google.co.id^
 @@||googleapis.com^
 @@||googlevideo.com^
+@@||google-analytics.com^
+@@||googletagmanager.com^
+@@||stats.g.doubleclick.net^
 @@||grab.com^
 @@||gstatic.com^
 @@||heytapdl.com^
@@ -66,6 +73,8 @@
 @@||miui.com^
 @@||msftncsi.com^
 @@||netflix.com^
+@@||newrelic.com^
+@@||nr-data.net^
 @@||octoclicks.co.id^
 @@||ovo.id^
 @@||shopee.co.id^
@@ -91,4 +100,3 @@
 @@||ytimg.com^
 @@||zalora.co.id^
 @@||mediaindonusa.com^
-
